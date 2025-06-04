@@ -111,13 +111,13 @@ const RegistrationSystem = () => {
   };
 
   return (
-    <div className="min-h-screen py-8 px-4">
-      <div className="max-w-4xl mx-auto">
+    <div className="min-h-screen py-12 px-4 relative z-10">
+      <div className="max-w-5xl mx-auto">
         <Header />
-        <Card className="mt-8 shadow-2xl border-0 bg-white/95 backdrop-blur-sm">
-          <div className="p-8">
+        <Card className="mt-12 shadow-2xl border-0 bg-white/90 backdrop-blur-lg">
+          <div className="p-10">
             <ProgressIndicator currentStep={currentStep} steps={steps} />
-            <div className="mt-8 animate-fade-in">
+            <div className="mt-10 animate-fade-in">
               {renderStep()}
             </div>
           </div>
