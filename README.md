@@ -50,5 +50,6 @@ This project is built with:
 - React
 - shadcn-ui
 - Tailwind CSS
-- Ai tools 
+- Ai tools
+- Also tried using the Google App Script Api to directly get data in sheets but failed
 
